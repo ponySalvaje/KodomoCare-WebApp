@@ -16,20 +16,15 @@ function Sidebar({ color, image, routes }) {
         className="sidebar-background"
       />
       <div className="sidebar-wrapper">
-        <div className="logo d-flex align-items-center justify-content-start">
-          <a
-            href="https://www.creative-tim.com?ref=lbd-sidebar"
-            className="simple-text logo-mini mx-1"
-          >
-            <div className="logo-img">
-              <img
-                src={require("assets/img/logo/logo_komodocare_white.png").default}
-                alt="..."
-              />
-            </div>
-          </a>
+        <div className="logo sidebar-center align-items-center justify-content-start">
+          <div className="logo-img">
+            <img
+              src={require("assets/img/logo/logo_komodocare_blue.png").default}
+              alt="..."
+            />
+          </div>
         </div>
-        <Nav>
+        <Nav className={"sidebar-center"}>
           {routes.map((prop, key) => {
             if (!prop.redirect)
               return (
@@ -46,8 +41,12 @@ function Sidebar({ color, image, routes }) {
                     className="nav-link"
                     activeClassName="active"
                   >
-                    <i className={prop.icon} />
-                    <p>{prop.name}</p>
+                    <div className="tab-icon">
+                      <img
+                        src={prop.tabIcon}
+                        alt="..."
+                      />
+                    </div>
                   </NavLink>
                 </li>
               );

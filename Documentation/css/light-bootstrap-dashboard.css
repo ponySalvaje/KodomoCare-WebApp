@@ -180,7 +180,7 @@ input:focus {
   top: 0;
   bottom: 0;
   left: 0;
-  width: 260px;
+  width: 100px;
   display: block;
   z-index: 1;
   color: #fff;
@@ -191,7 +191,7 @@ input:focus {
     position: relative;
     height: calc(100vh - 75px);
     overflow: auto;
-    width: 260px;
+    width: 100px;
     z-index: 4;
     padding-bottom: 30px; }
   .sidebar .sidebar-background {
@@ -424,7 +424,7 @@ body > .navbar-collapse[data-color="purple"]:after {
   background: rgba(203, 203, 210, 0.15);
   position: relative;
   float: right;
-  width: calc(100% - 260px); }
+  width: calc(100% - 100px); }
   .main-panel > .content {
     padding: 30px 15px;
     min-height: calc(100% - 123px); }
@@ -1714,7 +1714,7 @@ body > .navbar-collapse[data-color="purple"]:after {
   .card .image {
     width: 100%;
     overflow: hidden;
-    height: 260px;
+    height: 100px;
     border-radius: 4px 4px 0 0;
     position: relative;
     -webkit-transform-style: preserve-3d;
@@ -2591,7 +2591,7 @@ body > .navbar-collapse[data-color="purple"]:after {
     display: block;
     top: 0;
     height: 100%;
-    width: 260px;
+    width: 100px;
     right: 0;
     left: auto;
     z-index: 1032;
@@ -2601,11 +2601,11 @@ body > .navbar-collapse[data-color="purple"]:after {
     border-top: none;
     text-align: left;
     padding: 0;
-    -webkit-transform: translate3d(260px, 0, 0);
-    -moz-transform: translate3d(260px, 0, 0);
-    -o-transform: translate3d(260px, 0, 0);
-    -ms-transform: translate3d(260px, 0, 0);
-    transform: translate3d(260px, 0, 0);
+    -webkit-transform: translate3d(100px, 0, 0);
+    -moz-transform: translate3d(100px, 0, 0);
+    -o-transform: translate3d(100px, 0, 0);
+    -ms-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
     -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
     -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
     -o-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
@@ -2664,14 +2664,14 @@ body > .navbar-collapse[data-color="purple"]:after {
     -ms-transform: translate3d(0px, 0, 0);
     transform: translate3d(0px, 0, 0); }
   .nav-open .navbar .container {
-    left: -260px; }
+    left: -100px; }
   .nav-open .main-panel {
     left: 0;
-    -webkit-transform: translate3d(-260px, 0, 0);
-    -moz-transform: translate3d(-260px, 0, 0);
-    -o-transform: translate3d(-260px, 0, 0);
-    -ms-transform: translate3d(-260px, 0, 0);
-    transform: translate3d(-260px, 0, 0); }
+    -webkit-transform: translate3d(-100px, 0, 0);
+    -moz-transform: translate3d(-100px, 0, 0);
+    -o-transform: translate3d(-100px, 0, 0);
+    -ms-transform: translate3d(-100px, 0, 0);
+    transform: translate3d(-100px, 0, 0); }
   .navbar-toggle .icon-bar {
     display: block;
     position: relative;
